@@ -1,0 +1,784 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* font-family: "Open Sans", sans-serif; */
+  /* font-family: inherit; */
+}
+html,
+body {
+  width: 100%;
+}
+
+.container1 {
+  position: relative;
+  z-index: 3;
+}
+.container1 img {
+  padding: 30px;
+}
+.fullcont img {
+  width: 100%;
+  height: 755px;
+  position: absolute;
+  bottom: 20px;
+  z-index: -2;
+}
+
+.fa-bars {
+  color: black;
+  z-index: 7;
+  padding: 11px;
+  font-size: 20px;
+}
+.menu {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: white;
+  position: relative;
+  bottom: 140px;
+  float: right;
+  margin-top: 130px;
+  margin-right: 100px;
+  z-index: 8;
+}
+.main {
+  z-index: 8;
+  color: white;
+  margin-top: -50px;
+}
+.s1xh3 {
+  font-size: 60px;
+  margin-left: 50%;
+  margin-bottom: 7px;
+  font-family: "Gentona-SemiBold-Italic";
+}
+.s1h2 {
+  margin-left: 45%;
+  font-size: 1.6rem;
+  margin-bottom: 13px;
+}
+.s1p {
+  margin-left: 45%;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.twobtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.order button {
+  background-color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  /* position: relative;
+  bottom: 60px; */
+  margin-left: 120px;
+  border: none;
+}
+.watch button {
+  padding: 10px 20px;
+  background: transparent;
+  /* position: relative;
+  bottom: 60px; */
+  margin-left: 30px;
+  border: 1px solid white;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+.main-certiate {
+  display: flex;
+  color: white;
+  margin-left: 30%;
+  margin-top: 18%;
+  margin-left: 40%;
+  text-align: center;
+  align-items: center;
+}
+.seckm {
+  margin-left: 60px;
+}
+.seckm p,
+.thirdkm p,
+.firstkm p {
+  margin-top: 10px;
+  color: rgba(245, 245, 245, 0.603);
+}
+.thirdkm {
+  margin-left: 40px;
+}
+
+.first-green img {
+  width: 600px;
+  filter: opacity(30%);
+  filter: brightness(110%);
+  filter: contrast(110%);
+  transition: all 0.5s 0.2s;
+  overflow: hidden;
+}
+
+.img-hover:hover img {
+  transform: scale(1.03);
+}
+.img-hover {
+  /* border: 1px solid red; */
+  width: 600px;
+  margin-top: 10%;
+  margin-left: 70px;
+  overflow: hidden;
+}
+.greens1 {
+  width: 600px;
+  height: 620px;
+  background: #dee181;
+  filter: contrast(110%);
+  margin-left: 70px;
+  position: relative;
+  bottom: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.greens1 img {
+  width: 260px;
+  margin-bottom: 45px;
+  position: relative;
+  right: 23px;
+  /* margin-top: 90px; */
+  margin-left: 67px;
+}
+.blues {
+  background: #1b5194;
+}
+.kilometerflex {
+  display: flex;
+  justify-content: space-evenly;
+}
+.kilometerflex h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #283400;
+}
+
+.kilometerflex p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #465c00;
+}
+hr {
+  border: 1px solid #475c0069;
+  width: 81%;
+  margin-left: 53px;
+  margin-bottom: 15px;
+  /* height: 1px; */
+}
+
+.star h1::before {
+  content: url("https://cdn.olaelectric.com/ev-discovery-platform/s1-x/green_star_icon.svg");
+  /* border: 1px solid red; */
+  position: relative;
+  right: 10px;
+}
+.star1 h1::before {
+  content: url("https://cdn.olaelectric.com/ev-discovery-platform/s1-x/light_blue_star_icon.svg");
+  position: relative;
+  right: 10px;
+}
+.firstinch {
+  font-size: 24px;
+  margin-left: 45px;
+  padding: 13px;
+  /* border: 1px solid red; */
+  width: 54%;
+  margin-bottom: 10px;
+  color: #283400;
+}
+
+.orderflex {
+  display: flex;
+}
+.introduction p {
+  margin-left: 48px;
+  color: #283400;
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+.introduction h2 {
+  margin-left: 48px;
+  color: #283400;
+  font-size: 40px;
+}
+.introduction span {
+  font-size: 18px;
+  color: #283400ab;
+}
+.ordernowbtn button {
+  margin-top: 10px;
+  margin-left: 25px;
+  padding: 20px 57px;
+  border-radius: 4px;
+  background-color: rgba(40, 52, 0, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: "Gentona-Medium";
+  font-size: 18px;
+  border: none;
+  font-weight: bold;
+}
+.ordernowbtn1 button {
+  margin-top: 10px;
+  margin-left: 33px;
+  padding: 18px 30px;
+  font-size: 18px;
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.fa-angle-right {
+  margin-left: 7px;
+  font-weight: bold;
+}
+.fa-arrow-right {
+  margin-left: 7px;
+  font-weight: bold;
+}
+.twobike {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  right: 35px;
+  margin-bottom: 50px;
+}
+
+.mainwhite h1 {
+  color: white;
+}
+.mainwhite p {
+  color: white;
+}
+.fullgreen {
+  width: 100%;
+  height: 700px;
+  /* border: 3px solid red; */
+  overflow: hidden;
+}
+.fullgreen img {
+  width: 100%;
+  height: 100%;
+}
+.fullgreen {
+  position: relative;
+}
+.allnewdesign {
+  position: absolute;
+  top: 40px;
+  left: 92px;
+  margin: 40px auto;
+  color: white;
+}
+.allnewdesign h1 {
+  font-size: 40px;
+  line-height: 50px;
+}
+.fullsystem {
+  display: flex;
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 30px;
+  /* justify-content: space-evenly; */
+}
+.firstmeter {
+  /* border: 1px solid red; */
+  width: 21%;
+  height: 400px;
+  margin-left: 70px;
+}
+.firstmeter img {
+  width: 100%;
+  height: 100%;
+}
+.secondfull {
+  /* border: 2px solid gold; */
+  width: 38%;
+  height: 400px;
+  margin-left: 50px;
+}
+.secondfull h1 {
+  position: relative;
+  bottom: 131px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+}
+.secondfull p {
+  position: relative;
+  bottom: 131px;
+  text-align: center;
+  font-size: 20px;
+  color: rgba(245, 245, 245, 0.792);
+}
+.secondfull img {
+  width: 100%;
+  height: 100%;
+}
+.thirdorange {
+  /* border: 2px solid orangered; */
+  width: 21%;
+  margin-left: 70px;
+  height: 400px;
+}
+.thirdorange img {
+  width: 100%;
+  height: 100%;
+}
+.icons2 {
+  display: flex;
+}
+
+.lefticon,
+.righticon {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #ffffff41;
+  font-size: 35px;
+  position: relative;
+  bottom: 40px;
+  left: 1200px;
+  border: transparent;
+}
+.righticon {
+  left: 1230px;
+}
+.fa-caret-left {
+  margin-left: 10px;
+}
+.fa-caret-right {
+  margin-left: 16px;
+}
+
+.threepre {
+  border-bottom: 2px solid lightgray;
+  /* margin-top: 20px; */
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 28px;
+  margin-bottom: 40px;
+  font-family: "Gentona-Bold-Italic" !important;
+}
+.threepre a {
+  text-decoration: none;
+  color: #62798a;
+  font-weight: bold;
+  font-family: "Gentona-Bold-Italic" !important;
+}
+.perf {
+  color: #18334d;
+  font-size: 45px;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-bottom: 40px;
+}
+.fullthreerace {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 14%;
+}
+.topspeed {
+  width: 380px;
+  height: 300px;
+  /* border: 1px solid red; */
+  border-radius: 9px;
+}
+.topspeed h2 {
+  color: #18334d;
+  font-weight: 400;
+  font-size: 28px;
+  font-family: "Gentona-SemiBold-Italic";
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.topspeed p {
+  color: #70767e;
+  font-weight: 400;
+  line-height: 30px;
+
+  font-size: 18px;
+}
+.topspeed img {
+  width: 100%;
+  height: 100%;
+}
+
+/* savesmoneycolor start */
+
+.savesmoneycolor {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 700px;
+  background-image: url("https://cdn.olaelectric.com/sites/evdp/common/tco_bg_web_image_140823.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 40px;
+}
+.savesyou {
+  color: white;
+  margin-top: 120px;
+  margin-left: 131px;
+  width: 65%;
+  font-size: 48px;
+  font-family: inherit !important;
+  /* border: 1px solid red; */
+}
+.prices {
+  margin-top: 50px;
+  margin-left: 131px;
+  color: white;
+  font-size: 21px;
+  font-style: italic;
+}
+.twowheeler {
+  margin-top: 10px;
+  margin-left: 131px;
+  color: #eafff5c9;
+  font-size: 20px;
+  width: 61%;
+  line-height: 26px;
+  /* border: 1px solid red; */
+}
+.belive {
+  margin-top: 80px;
+  margin-left: 131px;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.savingcal {
+  margin-top: 10px;
+  margin-left: 131px;
+  color: #1cd89f;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.fulllayer {
+  display: flex;
+}
+.barcharti {
+  width: 70%;
+  height: 480px;
+  /* border: 2px solid red; */
+  margin-top: 114px;
+  /* margin-left: 80px; */
+  margin-right: 120px;
+}
+
+.barcharti img {
+  width: 100%;
+  height: 100%;
+}
+.fullbase2 {
+  display: flex;
+}
+.approxiate {
+  margin-top: 10px;
+  text-align: justify;
+  color: #eafff59e;
+  line-height: 23px;
+  font-size: 14px;
+}
+/* savesmoneycolor end */
+
+/* custom start */
+.fullcustom {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 560px;
+  padding: 70px;
+}
+.maincutsom {
+  /* border: 1px solid gold; */
+  width: 250px;
+  height: 87px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.customh1 {
+  font-size: 40px;
+  letter-spacing: 3;
+  color: #18334d;
+}
+.glossy {
+  /* border: 1px solid gold; */
+  width: 328px;
+  height: 70px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+.glossyp {
+  font-size: 18px;
+  line-height: 25px;
+  color: #18334d;
+}
+.mid {
+  /* border: 1px solid gold; */
+  width: 130px;
+  height: 40px;
+  margin-left: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.night {
+  font-size: 26px;
+  color: rgba(24, 51, 77, 1);
+  text-align: left;
+  font-family: "Gentona-Medium-Italic";
+  font-style: italic;
+  font-size: 24px;
+}
+
+.imageframe {
+  /* border: 1px solid crimson; */
+  width: 90%;
+  height: 460px;
+  margin-bottom: 60px;
+
+  /* display: flex; */
+}
+.imageframe img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.first-content {
+  display: flex;
+  justify-content: space-between;
+}
+.colorcircle {
+  margin-left: 20px;
+  width: 404px;
+  height: 100px;
+  line-height: 70px;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+.firstcolo {
+  margin-left: 40px;
+}
+.greens {
+  background-color: green;
+  width: 53px;
+  height: 50px;
+  border-radius: 100%;
+}
+.firstleft {
+  position: relative;
+  bottom: 291px;
+  left: 655px;
+  background-color: #ffffffc2;
+}
+.secondright {
+  position: relative;
+  bottom: 295px;
+  margin-left: 30px;
+  background-color: #ffffffc2;
+}
+/* custom end */
+
+/* introducion start */
+.introducion {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 1100px;
+  background: #071425;
+  padding: 96px 0 105px 0;
+  margin-bottom: 40px;
+}
+.into {
+  /* border: 1px solid red; */
+  width: 29%;
+  color: white;
+  margin-left: 8%;
+  margin-bottom: 20px;
+}
+.intoh1 {
+  font-size: 44px;
+}
+.feeldiv {
+  /* border: 1px solid red; */
+  width: 18%;
+  margin-left: 8%;
+  margin-bottom: 40px;
+  color: #62798a;
+}
+.feels {
+  font-size: 16px;
+}
+.watchdiv {
+  /* border: 1px solid green; */
+  width: 18%;
+  margin-left: 8%;
+  margin-bottom: 30px;
+}
+.watchdiv a {
+  color: #1cd89f;
+}
+.resignedcontain {
+  /* border: 1px solid red; */
+  width: 40%;
+  height: 700px;
+  margin-left: 7%;
+}
+.resignedcontain img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.reimage {
+  /* border: 1px solid red; */
+  width: 96%;
+  height: 300px;
+  margin-left: 4%;
+  margin-bottom: 10px;
+}
+.reimage img {
+  width: 100%;
+  height: 100%;
+}
+.batterfirst {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 388px;
+  margin-left: 4%;
+}
+.batterfirst img {
+  width: 100%;
+  height: 100%;
+}
+.battersecond {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 388px;
+  margin-left: 2%;
+}
+.battersecond img {
+  width: 100%;
+  height: 100%;
+}
+.redignfullflex {
+  display: flex;
+}
+.deignflex {
+  display: flex;
+}
+/* introducion end */
+
+/* fullfinacal start */
+
+.fullfinacal {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 650px;
+  padding: 50px 90px 50px 10px;
+}
+.finacial {
+  /* border: 1px solid crimson; */
+  width: 25%;
+  margin-left: 6%;
+}
+.finacalh2 {
+  color: #18334d;
+  font-weight: bold;
+  font-size: 44px;
+}
+.fullemi {
+  width: 25%;
+  height: 450px;
+  border-left: 1px solid rgba(211, 211, 211, 0.201);
+  position: relative;
+  left: 500px;
+  padding: 20px;
+}
+.fullemi1 {
+  width: 25%;
+  height: 450px;
+  border-left: 1px solid rgba(211, 211, 211, 0.336);
+  margin-left: 32%;
+}
+.fullemiflex {
+  display: flex;
+  justify-content: space-evenly;
+}
+.fullemi h2 {
+  color: #18334d;
+  margin-bottom: 20px;
+  line-height: 29px;
+}
+.fullemi p {
+  color: #62798a;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+.spacebank {
+  margin-left: 50px;
+}
+.spacebank1 {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.btn1 {
+  margin-top: 40px;
+  background: #0f2235;
+  justify-content: center;
+  font-size: 16px !important;
+  padding: 20px 0;
+  line-height: 16px;
+  color: #fff;
+  width: 100%;
+}
+.takeslow {
+  /* border: 1px solid crimson; */
+  width: 63%;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.takeslowh2 {
+  color: #18334d;
+  font-weight: bold;
+  font-size: 23px;
+  color: #18334d;
+  margin-bottom: 20px;
+  line-height: 29px;
+}
+.takeslow p {
+  /* border: 1px solid red; */
+  margin-top: 20px;
+  width: 110%;
+  color: #62798a;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+.totalpay {
+  /* border: 1px solid red; */
+  width: 300px;
+  height: 200px;
+  margin-top: 40%;
+  margin-left: 20px;
+}
+.totalpay img {
+  width: 100%;
+  height: 100%;
+}
+/* fullfinacal end */
