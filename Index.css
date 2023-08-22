@@ -782,3 +782,200 @@ hr {
   height: 100%;
 }
 /* fullfinacal end */
+
+/* findcontainer start */
+.findcontainer {
+  border: 1px solid;
+  width: 100%;
+  height: 730px;
+  background-color: #071425;
+  margin-bottom: 80px;
+}
+.hyperh1 {
+  /* border: 1px solid red; */
+  width: 29%;
+  margin-top: 62px;
+  margin-left: 80px;
+  color: white;
+}
+.hyperh1 h1 {
+  font-size: 44px;
+}
+.bang {
+  color: #1cd8d8;
+}
+.hyperh1 p {
+  margin-top: 35px;
+  /* letter-spacing: 1px; */
+}
+.seeour {
+  color: #1cd8d8;
+  font-size: 19px;
+}
+.olahypercontainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.fullolaframes {
+  /* border: 1px solid red; */
+  border: 1px solid #62798a;
+  width: 400px;
+  height: 330px;
+  margin-top: 4%;
+  border-radius: 15px;
+  background-color: #62798a07;
+}
+.crackimg img {
+  margin-top: 30px;
+  margin-left: 5px;
+}
+.hyperfull {
+  margin-left: 10px;
+  color: white;
+}
+.hyperfull h1 {
+  margin-top: -20px;
+  margin-bottom: 16px;
+}
+.hyperfull p {
+  color: #70767e;
+  line-height: 25px;
+  width: 85%;
+}
+
+/* findcontainer end */
+
+/* olapp start */
+.olaapp {
+  /* border: 1px solid red; */
+  width: 23%;
+  margin-top: 6%;
+  margin-left: 10%;
+}
+.olaapp h1 {
+  color: #274962;
+  margin-bottom: 20px;
+  font-size: 44px;
+}
+.olaapp p {
+  color: #62798a;
+  margin-bottom: 40px;
+}
+.promity {
+  border-right: 1px solid #62798a2d;
+  width: 250px;
+  height: 180px;
+  margin-top: 50px;
+  margin-left: 10%;
+  /* border: 1px solid red; */
+}
+.promity img {
+  margin-bottom: 16px;
+}
+.promity h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #274962;
+}
+.promity p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #62798a;
+}
+.profileflex {
+  display: flex;
+}
+.montion {
+  position: relative;
+  right: 120px;
+  border: none;
+  /* border: 1px solid red; */
+}
+.montion p {
+  width: 120%;
+  font-size: 17px;
+}
+.phoneolas {
+  /* border: 1px solid red; */
+  width: 50%;
+  height: 600px;
+  position: relative;
+  bottom: 398px;
+  float: right;
+}
+.phoneolas img {
+  width: 100%;
+  height: 100%;
+}
+.fullolaphone {
+  width: 100%;
+  height: 655px;
+}
+/* olapp end */
+
+/* youeye start */
+.lightframe {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 770px;
+  position: relative;
+  bottom: 95px;
+  background-color: #62798a14;
+  padding: 40px;
+}
+.eyeroad {
+  /* border: 2px solid red; */
+  width: 30%;
+  margin-top: 3%;
+  margin-left: 6%;
+  margin-bottom: 40px;
+}
+.eyeroad h1 {
+  font-size: 44px;
+  color: #274962;
+  margin-bottom: 20px;
+}
+.eyeroad p {
+  color: #62798a;
+  font-size: 18px;
+  line-height: 26px;
+}
+.firstbasebalack {
+  /* border: 1px solid green; */
+  width: 400px;
+  height: 280px;
+}
+.firstbasebalack img {
+  width: 100%;
+  height: 100%;
+}
+.firstblack {
+  /* border: 2px solid red; */
+  width: 400px;
+  height: 400px;
+}
+.firstblack h1 {
+  font-size: 26px;
+  color: #274962;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.firstblack p {
+  color: #62798a;
+  margin-bottom: 15px;
+}
+.firstblack a {
+  text-decoration: none;
+  color: #16aa51;
+  font-size: 19px;
+  font-weight: bold;
+}
+.carolaflex {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 6%;
+}
+.firaspace {
+  margin-left: 40px;
+}
+/* youeye end */
