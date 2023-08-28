@@ -10,16 +10,73 @@ body {
   width: 100%;
 }
 
-.container1 {
-  position: relative;
-  z-index: 3;
+/* Navbar starts */
+
+nav .logo-icon {
+  /* border: 1px solid red; */
+  background-color: rgba(17, 17, 17, 0.978);
+  color: white;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 54px;
+  padding-right: 54px;
+  position: fixed;
+  z-index: 4444;
+  /* position: absolute; */
+  /* top: 0px; */
 }
-.container1 img {
-  padding: 30px;
+nav .hamberger-icon i {
+  /* border: 1px solid orange; */
+  color: white;
+  font-size: 20px;
+  height: 42px;
+  width: 42px;
+  border-radius: 100%;
+  padding-left: 12px;
+  padding-top: 11px;
+}
+nav img {
+  /* border: 1px solid red; */
+  height: 24px;
+  width: 52px;
+}
+nav .nav-flex1 {
+  /* border: 1px solid blue; */
+  width: 240px;
+  margin-left: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+nav .nav-flex2 {
+  /* border: 1px solid blue; */
+  width: 360px;
+  margin-left: 480px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+nav .nav-flex1 a,
+nav .nav-flex2 a {
+  color: white;
+  text-decoration: none;
+}
+.nav-clr-green {
+  color: #32c86e;
+  cursor: pointer;
+}
+
+/* Navbar ends */
+
+.fullcont {
+  /* border: 1px solid red; */
+  /* margin-top: 90px; */
+  padding-top: 100px;
 }
 .fullcont img {
   width: 100%;
-  height: 755px;
+  height: 905px;
   position: absolute;
   bottom: 20px;
   z-index: -2;
@@ -31,18 +88,7 @@ body {
   padding: 11px;
   font-size: 20px;
 }
-.menu {
-  width: 40px;
-  height: 40px;
-  border-radius: 100%;
-  background: white;
-  position: relative;
-  bottom: 140px;
-  float: right;
-  margin-top: 130px;
-  margin-right: 100px;
-  z-index: 8;
-}
+
 .main {
   z-index: 8;
   color: white;
@@ -421,84 +467,72 @@ hr {
   height: 100%;
 }
 
-/* savesmoneycolor start */
+/* energy banner starts */
 
-.savesmoneycolor {
+.main-energy-banner {
   /* border: 1px solid red; */
-  width: 100%;
-  height: 700px;
+  /* background-color: #071425; */
   background-image: url("https://cdn.olaelectric.com/sites/evdp/common/tco_bg_web_image_140823.webp");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  margin-bottom: 40px;
-}
-.savesyou {
-  color: white;
-  margin-top: 120px;
-  margin-left: 131px;
-  width: 65%;
-  font-size: 48px;
-  font-family: inherit !important;
-  /* border: 1px solid red; */
-}
-.prices {
-  margin-top: 50px;
-  margin-left: 131px;
-  color: white;
-  font-size: 21px;
-  font-style: italic;
-}
-.twowheeler {
-  margin-top: 10px;
-  margin-left: 131px;
-  color: #eafff5c9;
-  font-size: 20px;
-  width: 61%;
-  line-height: 26px;
-  /* border: 1px solid red; */
-}
-.belive {
-  margin-top: 80px;
-  margin-left: 131px;
-  color: white;
-  font-size: 18px;
-  letter-spacing: 1px;
-}
-.savingcal {
-  margin-top: 10px;
-  margin-left: 131px;
-  color: #1cd89f;
-  font-size: 18px;
-  letter-spacing: 1px;
-}
-.fulllayer {
+  /* background-attachment: fixed; */
+  height: 800px;
   display: flex;
+  margin-bottom: 80px;
 }
-.barcharti {
-  width: 70%;
-  height: 480px;
-  /* border: 2px solid red; */
-  margin-top: 114px;
-  /* margin-left: 80px; */
-  margin-right: 120px;
+.main-energy-banner .main-energy-banner-content {
+  /* border: 1px solid yellow; */
+  margin-left: 80px;
+  margin-top: 120px;
+  margin-right: 40px;
+  height: 500px;
+}
+.main-energy-banner .main-energy-banner-content h1 {
+  color: #fff;
+  font-family: "Gentona-Semibold";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 49px;
+  letter-spacing: -1px;
+  margin-bottom: 54px;
+}
+.main-energy-banner .main-energy-banner-content h4 {
+  font-size: 20px;
+  color: #ffffffcf;
+  margin-bottom: 8px;
+}
+.main-energy-banner .main-energy-banner-content p {
+  font-size: 18px;
+  color: #ffffffa0;
+  line-height: 24px;
+  margin-bottom: 100px;
+}
+.main-energy-banner .main-energy-banner-content a {
+  text-decoration: none;
+  font-size: 20px;
 }
 
-.barcharti img {
-  width: 100%;
+.main-energy-banner .energy-img {
+  /* border: 1px solid orange; */
+  height: 514px;
+  width: 738px;
+  margin-top: 120px;
+  margin-left: 100px;
+}
+.main-energy-banner .energy-img img {
   height: 100%;
+  width: 100%;
 }
-.fullbase2 {
-  display: flex;
-}
-.approxiate {
-  margin-top: 10px;
-  text-align: justify;
-  color: #eafff59e;
-  line-height: 23px;
+.main-energy-banner .energy-img p {
+  color: rgba(255, 255, 255, 0.496);
+  margin-top: 24px;
+  margin-left: 120px;
   font-size: 14px;
 }
-/* savesmoneycolor end */
+
+/* energy banner ends */
 
 /* custom start */
 .fullcustom {
@@ -979,3 +1013,478 @@ hr {
   margin-left: 40px;
 }
 /* youeye end */
+
+/* helpmeaccess start */
+.helpmeaccess {
+  /* border: 1px solid red; */
+  width: 17%;
+  margin-top: 3%;
+  /* margin-left: 7%; */
+  margin-bottom: 20px;
+}
+.helpmeaccess h1 {
+  font-size: 44px;
+  color: #071425;
+  margin-bottom: 20px;
+}
+.helpmeaccess p {
+  color: #62798a;
+  font-size: 17px;
+}
+.fullbasebue {
+  /* border: 1px solid blue; */
+  width: 17%;
+  height: 300px;
+}
+.blueola {
+  /* border: 1px solid green; */
+  width: 257px;
+  height: 250px;
+}
+.blueola img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+.blueola p {
+  font-size: 24px;
+  font-weight: 50;
+  color: #62798a;
+}
+.OLALOG {
+  font-weight: bold;
+  color: #071425;
+}
+.fa-sort-desc {
+  color: #071425;
+}
+.helpmeflex {
+  display: flex;
+  justify-content: space-evenly;
+}
+.lightboder1 {
+  width: 84%;
+  background-color: rgba(211, 211, 211, 0.068);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 110px;
+  align-items: center;
+  padding: 30px;
+}
+
+.firstprice h3 {
+  font-size: 25px;
+  color: #6b6b6c;
+  font-weight: 70;
+}
+
+.emistart h1 {
+  font-size: 26px;
+  color: #071425;
+  margin-bottom: 10px;
+}
+.normalcolor {
+  background-color: white;
+}
+
+.movespace {
+  position: relative;
+  right: 70px;
+}
+.movespace1 {
+  position: relative;
+  right: 60px;
+}
+.movespace2 {
+  position: relative;
+  right: 30px;
+}
+.movespace3 {
+  position: relative;
+  right: 120px;
+}
+.movespace4 {
+  position: relative;
+  right: 80px;
+}
+.movespace5 {
+  position: relative;
+  right: 120px;
+}
+.movespace6 {
+  position: relative;
+  right: 110px;
+}
+.movespace7 {
+  position: relative;
+  right: 75px;
+}
+.movespace8 {
+  position: relative;
+  right: 100px;
+}
+.movespace9 {
+  position: relative;
+  right: 70px;
+}
+.flecbtn {
+  display: flex;
+}
+.viewbtm {
+  position: relative;
+  top: 50px;
+  left: 720px;
+  background: #181d22;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 20px 0;
+  margin-left: 16px;
+  width: 211px;
+  color: white;
+}
+.pricementioned {
+  /* border: 1px solid red; */
+  margin-top: 40px;
+  margin-left: 9%;
+  width: 25%;
+}
+.pricementioned p {
+  font-size: 17px;
+  line-height: 26px;
+  color: #62798a7d;
+}
+/* helpmeaccess end */
+
+/* our commuity start */
+
+.fullblue {
+  /* border: 1px solid red; */
+  margin-top: 40px;
+  width: 100%;
+  height: 680px;
+  background: #121027;
+  padding: 30px;
+  /* z-index: -5; */
+}
+.ourcommunity {
+  /* border: 1px solid green; */
+  width: 34%;
+  margin-top: 4%;
+  margin-left: 6%;
+  color: white;
+}
+.ourcommunity h1 {
+  margin-bottom: 40px;
+  font-size: 44px;
+}
+.ourcommunity p {
+  color: rgba(255, 255, 255, 0.562);
+  margin-bottom: 40px;
+}
+.fullvideo {
+  /* border: 1px solid crimson; */
+  width: 26%;
+  height: 360px;
+}
+.video1 {
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  /* background: #16aa51; */
+  margin: auto;
+  margin-top: 9%;
+}
+.video1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  position: relative;
+  z-index: 44;
+}
+.played {
+  background: #62798a;
+  width: 38px;
+  height: 38px;
+  border-radius: 100%;
+  position: relative;
+  z-index: 44;
+  left: 47px;
+  bottom: 87px;
+}
+.fa-play {
+  position: relative;
+  top: 9px;
+  left: 13px;
+  z-index: 44;
+  color: white;
+  font-size: 20px;
+}
+.firstframes {
+  border: 1px solid #d1d9ff33;
+  color: white;
+  height: 250px;
+  padding: 20px;
+  background: linear-gradient(
+    116.05deg,
+    rgba(13, 11, 12, 0.0416) 21.5%,
+    rgba(255, 255, 255, 0.0416) 45.33%,
+    rgba(27, 21, 25, 0.112) 92.98%
+  );
+  border-radius: 14px;
+  position: relative;
+  bottom: 50px;
+}
+.firstframes h1 {
+  font-size: 26px;
+  line-height: 40px;
+  margin-top: 56px;
+  margin-left: 23px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.firstframes p {
+  /* margin-top: 20px; */
+  text-align: center;
+  color: #d1d9ff;
+}
+.firstsoan {
+  margin-left: 22px;
+  font-size: 26px;
+}
+
+.threevideoflex {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* our commuity :end */
+
+/* bein charge start  */
+.chargeblue {
+  width: 100%;
+  height: 660px;
+  background-color: #62798a14;
+  padding: 40px;
+}
+.bechargeh1 {
+  /* border: 1px solid red; */
+  width: 59%;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  /* height: 100px; */
+}
+.firstfullcharge {
+  margin-top: 40px;
+}
+.bechargeh1 h1 {
+  font-size: 44px;
+  margin-bottom: 20px;
+  color: #18334d;
+}
+.bechargeh1 p,
+.duration p,
+.Power p,
+.portable p,
+.askedquention p,
+.something p {
+  font-size: 18px;
+  color: #62798a;
+  line-height: 30px;
+}
+
+.duration {
+  /* border: 1px solid green; */
+  width: 42%;
+  margin-bottom: 40px;
+  margin-left: 50px;
+}
+.duration h1,
+.Power h1,
+.portable h1 {
+  font-size: 23px;
+  color: #18334d;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.Power {
+  /* border: 1px solid orangered; */
+  width: 16%;
+  margin-bottom: 40px;
+  margin-left: 50px;
+}
+.chrgaes {
+  color: #16aa51;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+.batteryola {
+  /* border: 1px solid red; */
+  width: 300px;
+  height: 400px;
+  margin-bottom: 10px;
+}
+.batteryola img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.chargingpoint {
+  /* border: 2px solid coral; */
+  width: 300px;
+  height: 520px;
+}
+
+.chargingflex {
+  display: flex;
+  margin-top: 40px;
+}
+.borderbackimg {
+  display: flex;
+}
+.movements {
+  position: relative;
+  right: 40px;
+}
+/* bein charge end  */
+
+/* frquent start */
+.frquent {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 600px;
+  padding: 40px;
+}
+.askedquention {
+  /* border: 1px solid crimson; */
+  width: 71%;
+  margin-bottom: 50px;
+  margin-left: 45px;
+}
+.askedquention h1,
+.something h1 {
+  font-size: 44px;
+  font-weight: bold;
+  color: #18334d;
+  margin-bottom: 20px;
+}
+.something {
+  /* border: 1px solid red; */
+  width: 57%;
+  margin-bottom: 50px;
+  margin-left: 45px;
+}
+.something h1 {
+  font-size: 24px;
+}
+.request {
+  background: #0f2235;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 19px 10px;
+  margin-left: 16px;
+  width: 211px;
+  color: white;
+  margin-left: 45px;
+}
+summary {
+  font-size: 22px;
+  color: #18334d;
+  font-weight: 600;
+}
+summary::marker {
+  color: red;
+}
+.s1range {
+  margin-top: 10px;
+  font-size: 17px;
+  margin-top: 30px;
+  color: #62798a;
+  /* width: 40%; */
+}
+.detailshr {
+  margin-top: 40px;
+  width: 72%;
+  position: relative;
+  right: 20px;
+  border-top: 1px solid #62798a0f;
+}
+.summaryes {
+  display: flex;
+}
+.holesummary {
+  /* border: 1px solid brown; */
+  margin-top: 40px;
+  width: 650px;
+  position: relative;
+  left: 180px;
+}
+.chrgaes1 {
+  color: #16aa51;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  top: 30px;
+  /* float: right; */
+  left: 779px;
+}
+
+/* frquent end */
+/* footer starts */
+
+footer {
+  /* border: 1px solid red; */
+  background-color: #0a1320;
+  color: #d6e1ea;
+  height: 210px;
+  display: flex;
+  position: relative;
+  margin-top: 50px;
+}
+footer img {
+  height: 23px;
+  width: 61px;
+  margin-top: 34px;
+  margin-left: 60px;
+}
+footer .footer-flex-1 {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 34px;
+  margin-left: 100px;
+}
+footer .footer-flex-1 a {
+  text-decoration: none;
+  color: #d6e1ea;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+footer .footer-icons {
+  /* border: 1px solid red; */
+  height: 40px;
+  position: absolute;
+  right: 40px;
+  top: 34px;
+}
+footer .footer-icons a {
+  text-decoration: none;
+  color: #d6e1ea;
+  font-size: 18px;
+  margin-right: 24px;
+}
+footer p {
+  border: 1px solid #98fcc0;
+  color: #98fcc0;
+  font-size: 11px;
+  font-style: italic;
+  padding: 2px 8px;
+  height: 20px;
+  background: linear-gradient(83.64deg, #11703e 6.31%, #0c3b32 98.86%);
+  position: relative;
+  top: 70px;
+  right: 8px;
+}
+
+/* footer ends */
